@@ -36,4 +36,4 @@ if __name__ == "__main__":
                 f"Does {i + 1} letter ({word[i]}) matches? 1 - matches to the place, 2 - does not exist, 3 - another "
                 f"place\n")
             first_words = get_filtered_words(first_words, word[i], i, choices[choice])
-            all_words = get_filtered_words(first_words, word[i], i, choices[choice])
+            all_words = get_filtered_words(all_words, word[i], i, choices[choice])
